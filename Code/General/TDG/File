@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table name="test">
+  <test id="1">
+    <name>venkat</name>
+    <city>pune</city>
+  </test>
+  <test id="2">
+    <name>krish</name>
+    <city>hyd</city>
+  </test>
+</table>

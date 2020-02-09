@@ -1,0 +1,32 @@
+INSERT INTO user_signup (first_name , middle_name , last_name , password , date_of_birth , mobile_number , email, username)
+
+
+CREATE TABLE user_signup
+(
+first_name varchar(55),
+middle_name varchar(55),
+last_name varchar(55),
+password varchar(55),
+date_of_birth varchar(55),
+mobile_number varchar(55),
+email varchar(55),
+username varchar(55)
+);
+
+
+
+
+CREATE TABLE USER_DTL
+(
+USER_ID varchar(55),
+ENABLED varchar(5),
+PASS_WORD varchar(55),
+USER_EMAIL varchar(55),
+USER_NAME varchar(55),
+USER_PH varchar(55),
+USER_TYPE varchar(55)
+);
+
+
+
+INSERT INTO USER_DTL(USER_ID,ENABLED,PASS_WORD,USER_EMAIL,USER_NAME,USER_PH,USER_TYPE) values('demo','1','demo','demo@symc.com','Demo','9876543210','ROLE_ADMIN');
